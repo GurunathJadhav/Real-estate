@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Real Estate</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h4><i class="bi bi-house-door-fill"></i>House</h4>
+                <ul class="ul">
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#Service">Service</a></li>
+                </ul>
+            <div class="right_box">
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#"><i class="bi bi-globe"></i>Language</a></li>
+                    <li><a href="#">List Your Properties</a></li>
+                </ul>
+                <div class="account_box">
+                    <i class="bi bi-app-indicator"></i>
+                    <a href="loginpage.html"><i class="bi bi-person" data-toggle="tooltip" title="Login"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="cont1_box">
+                <h1>Modern <br> house</h1>
+                <p>3 Bedrooms , 1 Kitchen , 2 Bathrooms</p>
+                <div class="weather">
+                    <h6>42 °C <span>Very Hot</span></h6>
+                </div>
+                <div class="btn_cont">
+                    <i class="bi bi-arrow-left" id="btn_left"></i>
+                    <i class="bi bi-arrow-right" id="btn_right"></i>
+                </div>
+                <div class="images_bx">
+                    <div class="card">
+                        <img src="img/img3.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/img2.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/img1.jpg" alt="">
+                        <h6 id="h6">+6</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="choose_box">
+                <div class="stay_box">
+                    <button><i class="bi bi-house-door-fill"></i></button>
+                    <button><i class="bi bi-star-fill"></i></button>
+                    <button><i class="bi bi-tv-fill"></i></button>
+                </div>
+                <div class="select">
+                    <div class="card">
+                        <h5>City</h5>
+                        <input type="text" value="Belgaum">
+                        <input type="text" value="Karnataka">
+                    </div>
+                    <div class="card">
+                        <h5>People</h5>
+                        <input type="text" value="4 People" id="people">
+                        <button id="people_less">Less</button>
+                        <button id="people_more">More</button>
+                    </div>
+                    <div class="card">
+                        <div class="left_box">
+                            <h5>CHECK IN</h5>
+                            <div class="date">
+                                <h3 id="checkindate">sat,04 Nov</h3>
+                                <input type="date" id="checkin" value="2023-11-08">
+                                <i class="bi bi-calendar2-week-fill"></i>
+                            </div>
+                            <button id="checkin_less">Less</button>
+                            <button id="checkin_more">More</button>
+                        </div>
+
+                        <div class="right_box">
+                            <h5>CHECK OUT</h5>
+                            <div class="date">
+                                <h3 id="checkout_date">Sun,05 Nov</h3>
+                                <input type="date" id="checkout" value="2023-11-08">
+                                <i class="bi bi-calendar2-week-fill"></i>
+                            </div>
+                            <button id="checkout_less">Less</button>
+                            <button id="checkout_more">More</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="map">
+        <div class="address_box">
+            <div class="location">
+                <h6>Karnataka</h6>
+                <h4>Aastha House</h4>
+            </div>
+            <i class="bi bi-fullscreen-exit"></i>
+        </div>
+        <iframe src="https://my.atlist.com/map/e6eb5a08-165b-46ac-ae84-72d11969e659?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+    <div class="home">
+        <div class="title_button">
+            <h2>Explore more houses</h2>
+            <button>See All <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="home_box">
+            <div class="card">
+                <img src="img/img7.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Karnataka</h4>
+                        <p>Belgaum City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/img12.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Karnataka</h4>
+                        <p>Belgaum City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/img13.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Karnataka</h4>
+                        <p>Dharwad City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/img11.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Karnataka</h4>
+                        <p>Hubli City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/img10.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Karnataka</h4>
+                        <p>Nipani City</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <h2>Our Service</h2>
+        <div class="box">
+            <div class="img_box">
+                <img src="img/img11.jpg" alt="">
+            </div>
+            <div class="cont_box" id="Service">
+                <h6><span>OUR SERVICE</span></h6>
+                <h1>Comfort is our <br> Top priority for you</h1>
+                <p>Discover the perfect home that combines style, comfort, and functionality. This meticulously
+                    maintained residence is an exemplar of modern living, offering an array of features that cater to
+                    every lifestyle</p>
+                <ul>
+                    <li>Premium national marketing</li>
+                    <li>Local area knowledge</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+    </div>
+    <footer>
+        <h4><i class="bi bi-house-door-fill"></i>House</h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
